@@ -5,10 +5,16 @@
 Download the code and import into **eclipse** or intellij IDE.
 You can run the testcases as follows: 
 1. Click on the Testng.xml ->right click and run as TestNg Suite
-![](./testngxml snapshot.png)
+
+
+![testng suite](./testngxml snapshot.png)
+
   > **OR**
 2. Select individual test cases -> right click and run as TestNg Test
-![](./individualtest.png)
+
+![testng test](./individualtest.png)
+
+
 ## Overview
 
 The sample test is written for The Zebra website. I have used  Java,Selenium and TestNg as the framework.
