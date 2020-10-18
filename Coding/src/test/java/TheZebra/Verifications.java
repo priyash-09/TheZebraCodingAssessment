@@ -59,7 +59,7 @@ public class Verifications extends BaseScript {
 	@AfterTest
 	public void teardown() {
 
-		//driver.close();
+	//driver.close();
 	}
 
 	@DataProvider
@@ -67,11 +67,11 @@ public class Verifications extends BaseScript {
 		// Row stands for how many different data types test should run
 		// Column stands for how many values per each test
 
-		Object[][] data = new Object[2][1];
+		Object[][] data = new Object[1][1];
 
 		data[0][0] = "78704";
 
-		data[1][0] = "78748";
+	
 
 		return data;
 
