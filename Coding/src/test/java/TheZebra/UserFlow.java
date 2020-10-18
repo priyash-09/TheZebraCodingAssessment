@@ -18,10 +18,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import pageObjects.Drivers;
+
 import pageObjects.HomePage;
-import pageObjects.StartQuestions;
-import pageObjects.Vehicles;
+
 import pageObjects.XpathLocators;
 import pageObjects.prefillDriver;
 import pageObjects.startDriver;

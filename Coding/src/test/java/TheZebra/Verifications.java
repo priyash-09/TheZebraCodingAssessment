@@ -52,13 +52,14 @@ public class Verifications extends BaseScript {
 		Assert.assertEquals(hp.headline().getText(), "Compare");
 		hp.zipCode().sendKeys(zipcode); // Enter the zipcode
 		hp.submit().click();// Click on Start button
+		driver.close();
 
 	}
 
 	@AfterTest
 	public void teardown() {
 
-		driver.close();
+		//driver.close();
 	}
 
 	@DataProvider
