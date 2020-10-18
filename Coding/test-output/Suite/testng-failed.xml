@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="TheZebra.UserFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="click_insured"/>
+          <include name="initialize"/>
+          <include name="rent"/>
+        </methods>
+      </class> <!-- TheZebra.UserFlow -->
+      <class name="TheZebra.Verifications">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TheZebra.Verifications -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

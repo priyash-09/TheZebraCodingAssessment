@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="TheZebra.UserFlow">
+        <methods>
+          <include name="landingPage"/>
+          <include name="startPage" invocation-numbers="0"/>
+          <include name="driversPage"/>
+          <include name="teardown"/>
+          <include name="vehiclesPage"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TheZebra.UserFlow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
