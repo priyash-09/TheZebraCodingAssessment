@@ -7,12 +7,12 @@ You can run the testcases as follows:
 1. Click on the Testng.xml ->right click and run as TestNg Suite
 
 
-![testng suite](./testngxml snapshot.png)
+![testng suite](./testngxml.png)
 
   > **OR**
 2. Select individual test cases -> right click and run as TestNg Test
 
-![testng test](./individualtest.png)
+![testng test](./Individualtest.png)
 
 
 ## Overview
