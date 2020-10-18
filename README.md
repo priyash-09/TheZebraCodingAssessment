@@ -2,7 +2,10 @@
 # The Zebra|Coding Assignment
 
 ## Usage:
-Download the code and import into **eclipse** or intellij IDE.
+Download the code and open the project in **eclipse** IDE.
+```
+File-> Open projects from System File->import the source "Coding"
+```
 You can run the testcases as follows: 
 1. Click on the Testng.xml ->right click and run as TestNg Suite
 
