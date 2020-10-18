@@ -1,4 +1,4 @@
-# TheZebraCodingAssessment
+
 # The Zebra|Coding Assignment
 
 ## Usage:
@@ -24,9 +24,16 @@ The sample test is written for The Zebra website. I have used  Java,Selenium and
 
 ## Tests
 
-1. **Verification** : This test cases covers basic functionality of the home page like verifying the text, current URL, enter value in a field.
+1. **Verification** : This test cases covers basic functionality of the home page. This has 1 test case.
+
+- Test Case1 : Verifies the current page URL , current page title, verifies if radio button is clicked, prints the header text , total number of links on the page, enters teh zipcode and clicks on the submit button.
 					
-2. **UserFlow** : This covers the end to end flow to recieve insurance quotes for car insurance. It enters the details for the user, vehicle and the driver. 
+2. **UserFlow** : This covers the end to end flow to recieve insurance quotes for car insurance. It enters the details for the user, vehicle and the driver. This has 3 testcases.
+
+- Test Case1: Tests the flow of Landing Page 
+- Test Case2: Tests the flow of Start Questions page
+- Test Case3: Tests the flow of Vehicles Page
+- Test Case4: Tests the flow of Drivers Page
 
 ## Analysis
 
